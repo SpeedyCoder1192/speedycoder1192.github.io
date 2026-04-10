@@ -5,16 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SpeedyCoder1192</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap" rel="stylesheet">
+  
   <style>
     :root {
       --cc-navy: #10162f;
-      --cc-white: #fffcf5; /* Their signature off-white/cream */
+      --cc-white: #fffcf5;
       --cc-yellow: #f5ae18;
       --cc-teal: #3deabb;
       --cc-purple: #7e53f9;
     }
-    body { background-color: var(--cc-white); color: var(--cc-navy); }
-    /* The "Codecademy" Blocky Shadow */
+    
+    /* Apply JetBrains Mono globally */
+    body { 
+      background-color: var(--cc-white); 
+      color: var(--cc-navy); 
+      font-family: 'JetBrains Mono', monospace; 
+    }
+
     .cc-card {
       border: 2px solid var(--cc-navy);
       box-shadow: 4px 4px 0px var(--cc-navy);
@@ -28,6 +36,7 @@
       border: 2px solid var(--cc-navy);
       box-shadow: 3px 3px 0px var(--cc-navy);
       transition: all 0.2s ease;
+      font-family: 'JetBrains Mono', monospace;
     }
     .cc-button:hover {
       transform: translate(-2px, -2px);
@@ -39,7 +48,7 @@
     }
   </style>
 </head>
-<body class="font-sans leading-relaxed">
+<body class="leading-relaxed">
 
   <nav class="border-b-2 border-[#10162f] py-4 px-6 bg-white">
     <div class="container mx-auto flex justify-between items-center">
@@ -48,7 +57,7 @@
         <a href="#projects" class="hover:text-[#7e53f9]">Projects</a>
         <a href="#websites" class="hover:text-[#3deabb]">Sites</a>
         <a href="#donations" class="hover:text-[#f5ae18]">Support</a>
-        <a href="#privacy" class="hover:text-[#f5ae18]">Privacy</a>
+        <a href="#privacy" class="hover:text-[#7e53f9]">Privacy</a>
       </div>
     </div>
   </nav>
@@ -93,8 +102,7 @@
 
     <section id="projects" class="mb-20">
       <h3 class="text-2xl font-black mb-8 underline decoration-[#3deabb] decoration-4 underline-offset-8 uppercase">Repositories</h3>
-      <div id="projects-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          </div>
+      <div id="projects-list" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"></div>
     </section>
 
     <section id="websites" class="py-12 px-8 bg-[#10162f] text-white rounded-none border-4 border-[#10162f] cc-card">
@@ -105,15 +113,15 @@
 
     <section id="donations" class="mt-20 p-8 bg-[#f5ae18] border-2 border-[#10162f] cc-card">
         <h3 class="text-2xl font-black mb-4 uppercase">Support My Work</h3>
-        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
             <p class="text-lg font-bold max-w-2xl">
                 All of these are passion projects built in my free time. If you find them useful, consider fueling my motivation with a small tip!
             </p>
             <a href="https://nowpayments.io/donation?api_key=af9d9e1a-fa04-4c75-8baf-b6744f2355d8" 
                target="_blank" 
                rel="noreferrer noopener" 
-               class="cc-button bg-white p-2 w-16 h-16 flex items-center justify-center shrink-0">
-                <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button" class="w-full h-full object-contain">
+               class="cc-button bg-[#10162f] p-1 inline-block shrink-0 overflow-hidden">
+                <img src="assets/donobutton.svg" alt="Support SpeedyCoder1192" class="block h-16 md:h-20 w-auto">
             </a>
         </div>
     </section>
