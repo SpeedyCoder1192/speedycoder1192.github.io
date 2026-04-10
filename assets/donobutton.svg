@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="347" height="107" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 347.52 107.84">
+  <defs>
+    <style>.cls-2{fill:none;stroke:#dee3e6;stroke-width:2.5px}.cls-3{fill:#13171c}</style>
+  </defs>
+  <path d="M 16.91 -0.927 L 330.15 -0.927 C 339.427 -0.949 347.834 -16.708 347.85 -7.221 L 347.208 111.958 C 347.181 121.475 339.367 109.091 330.06 109.029 L 16.91 109.029 C 7.599 109.018 -0.98 122.261 -1.024 112.739 L -0.589 -5.356 C -0.567 -14.874 7.604 -0.989 16.91 -0.927 Z" style="fill: rgb(16, 22, 47); stroke-width: 0px;"/>
+  <path class="cls-2" d="M14.53 16.67h6.94v6.88h-6.94zm-.54 69.74h6.94v6.88h-6.94zM.36 65.34h78.29v41.7m177.14 0v-56.1h20.49m49.77 56.1v-56.1h-21.58M255.79 67.8h70.48m-54.22-8.6h37.08m-4.77-41.4v15.9m-13.44-17v12m-11.5-13.33V25.7m2.44 32.81a8.67 8.67 0 1116.38 0" style="stroke: rgb(126, 83, 249);"/>
+  <path class="cls-2" d="M276.28 58.91a14.28 14.28 0 01-.5-3.77 14.71 14.71 0 1128.91 3.77M317.36 0v26.22h30.15M24.2.08v8.6h24.72V29.8h59.44V65h56.8V18.57h24.29v80.82h23V37.91h35.57V.08" style="stroke: rgb(126, 83, 249);"/>
+  <text style="fill: rgb(255, 255, 255); font-family: &quot;JetBrainsMono Nerd Font&quot;; font-size: 20.2px; font-weight: 600; white-space: pre;" x="32.818" y="47.472">Support Me!</text>
+  <text style="fill: rgb(255, 145, 0); font-family: &quot;JetBrainsMono Nerd Font&quot;; font-size: 24.9px; font-weight: 800; white-space: pre;" x="31.5" y="70.391">SpeedyCoder1192</text>
+</svg>
