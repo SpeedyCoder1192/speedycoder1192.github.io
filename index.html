@@ -27,15 +27,11 @@
     .cc-button {
       border: 2px solid var(--cc-navy);
       box-shadow: 3px 3px 0px var(--cc-navy);
-      transition: all 0.1s ease;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
+      transition: all 0.2s ease;
     }
-    /* Updated hover to match the card hover effect as requested */
     .cc-button:hover {
-      transform: translate(-1px, -1px);
-      box-shadow: 5px 5px 0px var(--cc-navy);
+      transform: translate(-2px, -2px);
+      box-shadow: 6px 6px 0px var(--cc-navy);
     }
     .cc-button:active {
       transform: translate(2px, 2px);
@@ -51,6 +47,7 @@
       <div class="space-x-6 font-bold text-sm uppercase">
         <a href="#projects" class="hover:text-[#7e53f9]">Projects</a>
         <a href="#websites" class="hover:text-[#3deabb]">Sites</a>
+        <a href="#donations" class="hover:text-[#f5ae18]">Support</a>
         <a href="#privacy" class="hover:text-[#f5ae18]">Privacy</a>
       </div>
     </div>
@@ -86,17 +83,8 @@
                     <h4 class="text-2xl font-black">Qwant Prayer Times</h4>
                 </div>
                 <p class="font-medium mb-6">Injects accurate prayer times into Qwant search results. Fully privacy-focused and lightweight.</p>
-                <div class="flex flex-wrap items-center gap-4">
+                <div class="flex gap-4">
                     <a href="https://microsoftedge.microsoft.com/addons/detail/qwant-prayer-times/hdfhfmdoppecjaljebjjeekfcpichcce" class="cc-button bg-[#f5ae18] px-4 py-2 font-black text-sm uppercase">View on Edge Store</a>
-                    
-                    <a href="https://nowpayments.io/donation?api_key=af9d9e1a-fa04-4c75-8baf-b6744f2355d8" 
-                       target="_blank" 
-                       rel="noreferrer noopener" 
-                       class="cc-button bg-white p-2 w-[42px] h-[42px]" 
-                       title="Donate with Crypto">
-                        <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button" class="w-full h-full">
-                    </a>
-
                     <a href="#privacy" class="font-bold text-sm underline hover:text-[#7e53f9]">Privacy Policy</a>
                 </div>
             </div>
@@ -113,6 +101,21 @@
           <h2 class="text-3xl font-black mb-4 uppercase tracking-tighter">Live Websites</h2>
           <p class="mb-10 text-[#3deabb] font-bold">Public GitHub Pages projects.</p>
           <div class="grid gap-6 md:grid-cols-2" id="websites-list"></div>
+    </section>
+
+    <section id="donations" class="mt-20 p-8 bg-[#f5ae18] border-2 border-[#10162f] cc-card">
+        <h3 class="text-2xl font-black mb-4 uppercase">Support My Work</h3>
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-lg font-bold max-w-2xl">
+                All of these are passion projects built in my free time. If you find them useful, consider fueling my motivation with a small tip!
+            </p>
+            <a href="https://nowpayments.io/donation?api_key=af9d9e1a-fa04-4c75-8baf-b6744f2355d8" 
+               target="_blank" 
+               rel="noreferrer noopener" 
+               class="cc-button bg-white p-2 w-16 h-16 flex items-center justify-center shrink-0">
+                <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button" class="w-full h-full object-contain">
+            </a>
+        </div>
     </section>
 
     <section id="privacy" class="mt-20 p-8 bg-white border-2 border-[#10162f] cc-card">
